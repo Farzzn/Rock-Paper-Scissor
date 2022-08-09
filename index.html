@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Rock Paper Scissor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"> 
+
+        </script>
+
+    </head>
+    <body>
+        <embed src="Audio.mp3" loop="true" type="audio/mp3" autostart="true" width="2" height="0">
+        <h1>ROCK PAPER SCISSOR</h1>
+        <br>
+        <div id = "result" class= "result">
+            CLICK YOUR CHOICE FROM BELOW........
+            
+        </div>
+        <br>
+        <div class="play-again" id="but"><button class="button-23" onclick="reloadPage()">Play Again</button></div>
+        </div><br><br>
+        <div class="flexbox" id="id2">
+            <img id="Urock" src="Main-rock.PNG" onclick="UserTurn( 'Urock');" />
+            <img id="Upaper" src="Main-paper.PNG" onclick="UserTurn( 'Upaper');" />
+            <img id="Uscissor" src="Main-scissor.PNG" onclick="UserTurn( 'Uscissor');" />
+        </div> <br><br>
+    <div class="flexbox" id="id3">
+        <img id="rock" class="computerChoice" src="Main-rock.PNG" />
+        <img id="paper" class="computerChoice" src="Main-paper.PNG"/>
+        <img id="scissor" class="computerChoice" src="Main-scissor.PNG"
+         />
+    </div>
+    
+    </body>
+</html> 
