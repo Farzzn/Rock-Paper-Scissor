@@ -44,6 +44,9 @@ img:hover{
     padding: 20PX;
 
 }
+span{
+    color: red;
+}
 
 .button-23 {
     background-color: #FFFFFF;
@@ -73,7 +76,7 @@ img:hover{
   .play-again{
     visibility: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .button-23:focus-visible {
@@ -97,4 +100,3 @@ img:hover{
 .computerChoice{
     visibility: hidden;
 }
-
